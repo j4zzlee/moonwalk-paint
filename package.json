@@ -1,0 +1,39 @@
+{
+  "name": "moonwalk-paint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "webpack --config webpack-dev-watch.config.js --progress --profile --colors --watch",
+    "build": "webpack --config webpack-dev-build.config.js --progress --profile --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/st2forget/moonwalk-paint.git"
+  },
+  "author": "Le Huu Hoang Gia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/st2forget/moonwalk-paint/issues"
+  },
+  "homepage": "https://github.com/st2forget/moonwalk-paint#readme",
+  "dependencies": {
+    "babel-cli": "^6.4.0",
+    "babel-core": "^6.4.0",
+    "babel-loader": "^6.2.1",
+    "babel-plugin-transform-runtime": "^6.4.0",
+    "babel-polyfill": "^6.7.4",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13",
+    "babel-register": "^6.9.0",
+    "babel-runtime": "^6.3.19",
+    "cli-table": "^0.3.1",
+    "expose-loader": "^0.7.1",
+    "html-webpack-plugin": "^2.22.0",
+    "nconf": "^0.8.4",
+    "webpack": "^1.13.1"
+  },
+  "devDependencies": {
+    "imports-loader": "^0.6.5"
+  }
+}
